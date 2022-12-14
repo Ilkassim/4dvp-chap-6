@@ -1,11 +1,10 @@
 version: 2
 updates:
-  -package-ecosystem: "github-actions"
-  directory: "/"
-  schedule: 
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule: 
     interval: "dailly"
-
--package-ecosystem: 
-directory: "/"
-schedule: 
-  interval: "daily"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule: 
+       interval: "dailly"
